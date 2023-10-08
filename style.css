@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background: linear-gradient(0deg, #0062ff 0%, #09dcd9 100%);
+}
+
+h1 {
+    font-size: 5rem;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 3px 0 #DA0463;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Acme', sans-serif;
+}
+
+#btn {
+    margin: 80px 0px 80px 40px;
+    user-select: none;
+}
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 0rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    border-radius: 50%;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.pressed {
+    box-shadow: -1px -2px 9px 3px rgba(0, 0, 0, 0.66);
+
+}
+
+.w {
+    background-image: url(Images/w.png);
+}
+
+.a {
+    background-image: url(Images/a.png);
+}
+
+.s {
+    background-image: url(Images/s.png);
+}
+
+.d {
+    background-image: url(Images/d.png);
+}
+
+.j {
+    background-image: url(Images/j.png);
+}
+
+.k {
+    background-image: url(Images/k.png);
+}
+
+.l {
+    background-image: url(Images/l.png);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding: 20px 0px 40px 0;
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
